@@ -1,0 +1,47 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    background-color: #1b1b32;
+
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato,sans-serif;
+}
+
+.contenedor-logo{
+    background-color: rgb(5, 2, 24);
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.logoW{
+    height: 150px;
+   
+}
+
+
+
+.contenedor-general{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
